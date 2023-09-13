@@ -10,6 +10,7 @@ fun main() {
 fun comparingTwoNumbers(): Boolean {
     var countFirstNumber: Int? = null
     var countSecondNumber: Int? = null
+    val trueOrFalse: Boolean
 
     while (countFirstNumber == null) {
         print("Enter the number a: ")
@@ -27,5 +28,6 @@ fun comparingTwoNumbers(): Boolean {
             }
         }
     }
-    return countFirstNumber > countSecondNumber!!
+    trueOrFalse = countFirstNumber > countSecondNumber!!
+    return trueOrFalse
 }

@@ -4,9 +4,9 @@
  */
 fun main() {
     print("Write name: ")
-    var userText: String? = readLine()
+    val userText: String? = readLine()
 
-    var name: String = userText.toString();
+    val name: String? = userText
 
     print("Hello, $name")
 
