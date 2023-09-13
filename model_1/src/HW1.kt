@@ -6,12 +6,8 @@
  * 4. Напишите в комментарии какого типа последняя переменная (Double)
  */
 fun main() {
-    var a: Int? = null
-    var b: Any = "3"
-
+    var a: Any? = null
     a = 4
-    b = 1
-
     var c = a / 2.5
 
     checkingDataType(c)
